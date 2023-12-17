@@ -1,0 +1,253 @@
+.private.banner-wrapper {
+  background-color: #252525;
+  background: -webkit-gradient(
+    linear,
+    left top,
+    right top,
+    color-stop(0, #232021),
+    to(#0093c8)
+  );
+  background: linear-gradient(90deg, #232021 0, #0093c8);
+  position: relative;
+  z-index: 1;
+  padding-top: 150px;
+  padding-bottom: 150px;
+}
+.private .wrapper-content h1 {
+  color: #fff;
+  margin-bottom: 20px;
+  font-size: 58px;
+  font-weight: 700;
+  display: block;
+}
+.private .wrapper-content .as-h1 {
+  color: #fff;
+  margin-bottom: 20px;
+  font-size: 42px;
+  font-weight: 700;
+  display: block;
+}
+.private .wrapper-content p {
+  color: #fff;
+  line-height: 1.9;
+}
+.private .wrapper-content form {
+  position: relative;
+  margin-top: 30px;
+  margin-right: 50px;
+}
+.private .wrapper-content form .input-search {
+  display: block;
+  width: 100%;
+  background-color: #fff;
+  border: none;
+  height: 60px;
+  padding-left: 20px;
+  border-radius: 70px;
+  outline: 0;
+  color: #252525;
+  -webkit-box-shadow: 0 5px 28.5px 1.5px rgba(149, 152, 200, 0.2) !important;
+  box-shadow: 0 5px 28.5px 1.5px rgba(149, 152, 200, 0.2) !important;
+}
+.private .wrapper-content form button {
+  position: absolute;
+  right: 5px;
+  top: 5px;
+  background-color: #3f197f;
+  color: #fff;
+  border: none;
+  height: 50px;
+  padding: 0 30px;
+  border-radius: 70px;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  text-transform: uppercase;
+  font-size: 15px;
+  font-weight: 600;
+}
+.private [type="button"]:not(:disabled),
+[type="reset"]:not(:disabled),
+[type="submit"]:not(:disabled),
+button:not(:disabled) {
+  cursor: pointer;
+}
+.private .banner-courses-category {
+  text-align: center;
+  padding-left: 15px;
+}
+.private .students-feedback-form {
+  position: relative;
+  z-index: 1;
+  text-align: center;
+  background-color: #fff;
+  color: #fff;
+}
+.private .students-feedback-form h3 {
+  background-color: #3f197f;
+  margin-bottom: 0;
+  color: #fff;
+  padding: 25px 20px;
+  font-size: 25px;
+  font-weight: 600;
+}
+.private .students-feedback-form {
+  position: relative;
+  z-index: 1;
+  text-align: center;
+  background-color: #fff;
+  color: #fff;
+}
+.private .students-feedback-form form {
+  color: #252525;
+  padding: 30px;
+}
+.private .gorsenme {
+  opacity: 0;
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 0;
+  width: 0;
+  z-index: -1;
+}
+.private .students-feedback-form form .form-group {
+  text-align: left;
+  position: relative;
+  margin-bottom: 30px;
+}
+.private .students-feedback-form form .form-group .form-control {
+  border-radius: 0;
+  border: none;
+  border-bottom: 1.3px solid #eee;
+  padding: 0 0 0 30px;
+  color: #252525;
+  height: 45px;
+  -webkit-box-shadow: unset !important;
+  box-shadow: unset !important;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  font-size: 15px;
+  font-weight: 400;
+  resize: none;
+}
+.private .students-feedback-form form .form-group .label-title {
+  margin-bottom: 0;
+  position: absolute;
+  display: block;
+  left: 0;
+  top: 0;
+  pointer-events: none;
+  width: 100%;
+  height: 100%;
+  color: #252525;
+}
+.private .students-feedback-form form .form-group .label-title:before {
+  content: "";
+  display: block;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 0;
+  height: 2px;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  background: #3f197f;
+}
+.private .default-btn {
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  display: inline-block;
+  padding: 13px 25px 12px 55px;
+  position: relative;
+  background-color: #3f197f;
+  color: #fff;
+  border-width: 2px;
+  border-style: solid;
+  border-color: #3f197f;
+  border-radius: 1px;
+  font-size: 14.5px;
+  font-weight: 700;
+}
+.private .students-feedback-form:after {
+  right: 100%;
+  top: 50%;
+  border: solid transparent;
+  content: "";
+  height: 0;
+  width: 0;
+  position: absolute;
+  pointer-events: none;
+  border-width: 20px;
+  margin-top: -20px;
+  border-right-color: inherit;
+  z-index: -1;
+}
+.private .wrapper-content form button:hover,
+.wrapper-content form button:focus {
+  background-color: #0eb582;
+  color: #fff;
+}
+.private .default-btn:hover,
+.default-btn:focus {
+  background-color: #0eb582;
+  color: #fff;
+  border-color: #0eb582;
+}
+.private .default-btn:hover .icon-arrow.before,
+.default-btn:focus .icon-arrow.before {
+  opacity: 0;
+  -webkit-transform: translateX(-75%) scaleX(0.1);
+  transform: translateX(-75%) scaleX(0.1);
+}
+.private .default-btn .icon-arrow.before {
+  left: 20px;
+  position: absolute;
+  -webkit-transform-origin: left center;
+  transform-origin: left center;
+}
+
+.private .default-btn:hover .label {
+  -webkit-transform: translateX(-32px);
+  transform: translateX(-32px) !important;
+  display: inline-block;
+}
+.default-btn:hover .icon-arrow.after,
+.default-btn:focus .icon-arrow.after {
+  opacity: 1;
+  -webkit-transform: translateX(0) scaleX(1);
+  transform: translateX(0) scaleX(1);
+}
+.default-btn .icon-arrow.after {
+  opacity: 0;
+  position: absolute;
+  right: 20px;
+  -webkit-transform: translateX(75%) scaleX(0.1);
+  transform: translateX(75%) scaleX(0.1);
+  -webkit-transform-origin: right center;
+  transform-origin: right center;
+}
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.swiper {
+  margin-left: auto;
+  margin-right: auto;
+}
